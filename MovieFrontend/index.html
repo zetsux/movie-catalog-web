@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Catalog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="topbar">
+        <a class="active" href="#">Movie Catalog</a>
+
+        <div class="searcher">
+            <form role="search" id="form">
+                <input type="search" id="query" name="q" placeholder="Search...">
+            </form>
+        </div>
+    </div>
+
+    <h1 id="load">Loading movies...</h1>
+    <h1 id="nomore">There are no more movies available..</h2>
+
+    <div style="padding-left:16px">
+        <section id="sect">
+            <!-- <div class="row">
+                <div class="col">
+                    <div class="moviecard">
+                        <center><img src="https://s1.bukalapak.com/img/68286857232/large/Poster_Film___Avengers_Endgame___Marvel_Studios___Movie_Post.jpg" class="thumbnail"></center>
+                        <h3>Movie Title</h3>
+                    </div>
+                </div>
+            </div> -->
+        </section>
+
+        <div class="pagination">
+            <button id="prev">← Previous Page</button>
+            <button id="next">Next Page →</button>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
