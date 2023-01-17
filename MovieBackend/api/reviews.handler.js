@@ -16,7 +16,7 @@ export default class ReviewsHandler {
 
     static async getReview(req, res, next) {
         try {
-            let id = req.params.id || {}; //kalo ada pake id, klo gada pake empty object
+            let id = req.params.id || {}; // if there is no id, input empty object as id
             let review = await ReviewsDAO.getReview(id);
 
             if (!review) {

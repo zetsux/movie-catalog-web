@@ -16,7 +16,6 @@ function fetchReviews(url) {
     fetch(url + "movie/" + movieId).then(response => response.json())
     .then(function(data){
         empty.style.display = 'none';
-        let i = 0;
 
         const addDiv = document.createElement('div');
         addDiv.innerHTML = `
@@ -45,6 +44,7 @@ function fetchReviews(url) {
         `;
         section.appendChild(addDiv);
 
+        let i = 0;
         data.forEach(r => {
             i++;
             const cardDiv = document.createElement('div');
@@ -94,13 +94,12 @@ function editReview(id, user, review) {
     `
 }
 
-// ="" default value klo ga dikasi nilai masukan
 function saveReview(reviewInputId, userInputId, id="") {
     const review = document.getElementById(reviewInputId).value;
     const user = document.getElementById(userInputId).value;
 
     if (id) {
-        //Fetch defaultnya GET, jd kl mw yg lain hrs diedit
+        //The default method is GET, so method need to be changed in order to do any other operation
         fetch(REVIEWLINK + id, {
             method: 'PUT',
             headers: {

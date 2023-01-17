@@ -61,7 +61,7 @@ function fetchMovies(url) {
             title.innerHTML += `<br><br><br><a class="reviewop" href="movie.html?id=${e.id}&title=${e.title}">See Reviews 📝</a>`;
             img.src = IMGPATH + e.poster_path;
 
-            //masukkin ke dalem
+            //append (insert)
             center.appendChild(img);
             cardDiv.appendChild(center);
             cardDiv.appendChild(title);
@@ -100,8 +100,7 @@ function fetchMovies(url) {
                 if (invis.length > 25) title.innerHTML = `${invis.substring(0, 25) + '...'}`;
                 else title.innerHTML = `${invis}`;
                 title.innerHTML += `<br><br><br><h3 class="reviewop">See Reviews 📝</h3>`;
-
-                //masukkin ke dalem
+                
                 center.appendChild(img);
                 cardDiv.appendChild(center);
                 cardDiv.appendChild(title);

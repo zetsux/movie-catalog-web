@@ -26,6 +26,8 @@ MongoClient.connect(
     })
 })
 
+// CURL TESTS
+
 // POST
 // curl -X POST http://localhost:8000/api/v1/reviews/new -H "Content-Type: application/json" -d "{\"movieId\": 12, \"user\": \"beau\", \"review\": \"good\"}"
 // curl -X POST http://localhost:8000/api/v1/reviews/new -H "Content-Type: application/json" -d "{\"movieId\": 12, \"user\": \"quincy\", \"review\": \"bad movie\"}"
