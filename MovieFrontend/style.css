@@ -115,13 +115,15 @@ body {
     color : whitesmoke;
     border-radius: 6px;
     padding: 8px;
-    background-color: #7b2243;
-    border: 1px white solid;
+    background-color: #6a1d3a;
+    border: 2px #7b2243 solid;
+    font-weight: bolder;
 }
 
 .pagination button:hover {
-    background-color: #c46688;
-    border-color: whitesmoke;
+    color: #c46688;
+    border-color: #c46688;
+    background-color: #350e1d;
 }
 
 #nomore {
