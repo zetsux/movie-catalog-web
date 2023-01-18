@@ -13,13 +13,13 @@ A movie catalog website using TMDB API that enable the user to do CRUD to the re
 - Able to search for a movie based on letter(s), word(s), or sentence(s) from the title
 
 <p align="center">
-  <img width="640" src="https://cdn.discordapp.com/attachments/995337235211763722/1064927328066609252/image.png" alt="Top Part">
+  <img width="640" src="https://cdn.discordapp.com/attachments/995337235211763722/1065304500107218944/image.png" alt="Top Part">
 </p>
 
 - Able to switch page using interactive buttons
 
 <p align="center">
-  <img width="640" src="https://cdn.discordapp.com/attachments/995337235211763722/1064927787091230871/image.png" alt="Bottom Part">
+  <img width="640" src="https://cdn.discordapp.com/attachments/995337235211763722/1065308928856039574/image.png" alt="Bottom Part">
 </p>
 
 - Able to do CRUD operations using interactive buttons to the reviews for each movies by using MongoDB database
@@ -29,7 +29,7 @@ A movie catalog website using TMDB API that enable the user to do CRUD to the re
   - Able to delete reviews that have been posted previously (D)
   
 <p align="center">
-  <img width="640" src="https://cdn.discordapp.com/attachments/995337235211763722/1064927437026238564/image.png" alt="Reviews Dashboard">
+  <img width="640" src="https://cdn.discordapp.com/attachments/995337235211763722/1065309402736885820/image.png" alt="Reviews Dashboard">
 </p>
 
 ## Reference
