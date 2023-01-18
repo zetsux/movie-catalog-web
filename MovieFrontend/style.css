@@ -28,11 +28,12 @@ body {
 }
 
 .topbar .goback {
-    border: 2px white solid;
+    border: 2px #7b2243 solid;
     border-radius: 6px;
     font-size : 1.5rem;
     padding: 10px 15px;
     text-transform: none;
+    background-color: #6a1d3a;
 }
 
 .topbar .goback:hover {
@@ -107,15 +108,15 @@ body {
 
 .pagination {
     text-align: center;
-    border: 1px white;
     padding: 3px;
 }
 
 .pagination button {
-    background-color: #9e2b56;
     color : whitesmoke;
     border-radius: 6px;
     padding: 8px;
+    background-color: #7b2243;
+    border: 1px white solid;
 }
 
 .pagination button:hover {
@@ -143,9 +144,10 @@ body {
     text-decoration: none;
     color: #fff;
     font-size: 85%;
-    border: 2px white solid;
+    border: 2px #7b2243 solid;
     border-radius: 6px;
     padding: 7px 9px 8px 13px;
+    background-color: #6a1d3a;
 }
 
 .reviewop:hover {
@@ -177,8 +179,9 @@ body {
     text-decoration: none;
     padding: 10px 35px 10px 40px;
     color: #fff;
-    border: 2px white solid;
+    border: 2px #7b2243 solid;
     border-radius: 6px;
+    background-color: #6a1d3a;
 }
 
 .reviewctrl:hover {
