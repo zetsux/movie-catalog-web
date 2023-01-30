@@ -1,7 +1,6 @@
 import app from './server.js';
 import mongodb, { CURSOR_FLAGS } from "mongodb";
 
-//DAO = Data Access Objects
 import ReviewsDAO from "./dao/reviewsDAO.js"
 
 const MongoClient = mongodb.MongoClient;
