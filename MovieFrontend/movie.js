@@ -2,7 +2,7 @@ const Url = new URL(location.href);
 const movieId = Url.searchParams.get("id");
 const movieTitle = Url.searchParams.get("title");
 
-const REVIEWLINK = process.env.basicURL + '/api/v1/reviews/';
+const REVIEWLINK = 'https://movie-catalog-web-backend.vercel.app/api/v1/reviews/';
 
 const section = document.getElementById('sect');
 const empty = document.getElementById('empty');
