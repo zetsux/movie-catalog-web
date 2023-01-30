@@ -1,9 +1,8 @@
 import app from './server.js';
-import mongodb, { CURSOR_FLAGS } from "mongodb";
 
 import ReviewsDAO from "./dao/reviewsDAO.js"
 
-const MongoClient = mongodb.MongoClient;
+const MongoClient = require('mongodb').MongoClient;
 const mongoURI = process.env.database;
 
 const port = 8000;
