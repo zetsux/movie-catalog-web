@@ -2,7 +2,7 @@ const Url = new URL(location.href);
 const movieId = Url.searchParams.get("id");
 const movieTitle = Url.searchParams.get("title");
 
-const REVIEWLINK = 'http://localhost:8000/api/v1/reviews/';
+const REVIEWLINK = process.env.basicURL + '/api/v1/reviews/';
 
 const section = document.getElementById('sect');
 const empty = document.getElementById('empty');
